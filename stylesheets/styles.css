@@ -1,0 +1,21 @@
+a.card:hover {
+  text-decoration: none;
+}
+.news-list li::before {
+  content: "・";
+  color: #fff;
+}
+@media screen and (max-width: 560px) {
+  #ab-carousel h1 {
+    font-size: 2rem;
+  }
+  #ab-carousel .btn {
+    margin-top: 0 !important; /*因為BS 幾乎都有用important 所以要覆蓋的時候也要寫一次*/
+  }
+  /* #carouselExampleControls h1 {
+font-size: 2rem;
+}
+#carouselExampleControls .btn {
+margin-top: 0 !important;
+} */
+}
